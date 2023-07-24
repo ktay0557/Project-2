@@ -18,14 +18,34 @@
         <img class="flag-logo" src="assets/images/logo.png" alt="flag-logo"> Flags of the World
     </h1>
 
-    <div class="game">
-
-
+    <div class="scoreboard">
+        <p class="results">Right: <span id="right">0</span></p>
+        <p class="results">Wrong: <span id="wrong">0</span></p>
     </div>
 
-    <div class="scoreboard">
-        <p class="results">Right <span id="right">0</span></p>
-        <p class="results">Wrong <span id="wrong">0</span></p>
+    <div class="game">
+        <div class="questions">
+            <p>Which of the following is the flag of X?</p>
+        </div>
+        <div class="answer-selection">
+            <input name="flag" id="flag1" type="radio" value="flag1" />
+            <label for="flag1">
+                <!--Add image of flag as label-->
+            </label>
+            <input name="flag" id="flag2" type="radio" value="flag2" />
+            <label for="flag2">
+                <!--Add image of flag as label-->
+            </label>
+            <input name="flag" id="flag3" type="radio" value="flag3" />
+            <label for="flag3">
+                <!--Add image of flag as label-->
+            </label>
+            <input name="flag" id="flag4" type="radio" value="flag4" />
+            <label for="flag4">
+                <!--Add image of flag as label-->
+            </label>
+        </div>
+        <button class="btn">Submit Flag</button>
     </div>
 
     <script src="assets/js/script.js"></script>
