@@ -62,7 +62,7 @@ function loadQuestion() {
         questionAns += `<label><input type="radio" name="question" value="${option.value}"><img class="flagImage" src="${option.src}" alt="${option.alt}"></label>`;
     });
 
-    document.getElementsByClassName('question').innerHTML = questionAns;
+    document.getElementById('question').innerHTML = questionAns;
 }
 
 loadQuestion();
