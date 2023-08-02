@@ -1,3 +1,5 @@
+let currentQuestionNumber = 0;
+
 const questions = [
     {
         question: "Which of the following is the Japanese flag?",
@@ -51,3 +53,16 @@ const questions = [
     },
     // Add more questions if necessary.
 ];
+
+function loadQuestion() {
+    let flagQuestion = questions[currentQuestionNumber];
+    let questionAns = `<p>${flagQuestion.question}</p>`;
+
+    flagQuestion.options.forEach((option, index) => {
+        questionAns += `<label><input type="radio" name="question" value="${option.value}"><img class="flagImage" src="${option.src}" alt="${option.alt}"></label>`;
+    });
+
+    document.getElementsByClassName('question').innerHTML = questionAns;
+}
+
+loadQuestion();
