@@ -1,4 +1,5 @@
-let currentQuestionNumber = 0;
+let currentQuestionsRight = 0;
+let currentQuestionsWrong = 0;
 
 const questions = [
     {
@@ -55,7 +56,7 @@ const questions = [
 ];
 
 function loadQuestion() {
-    let flagQuestion = questions[currentQuestionNumber];
+    let flagQuestion = questions[currentQuestionsRight];
     let questionAns = `<p>${flagQuestion.question}</p>`;
 
     flagQuestion.options.forEach((option, index) => {
@@ -63,6 +64,10 @@ function loadQuestion() {
     });
 
     document.getElementById('question').innerHTML = questionAns;
+};
+
+function checkAnswer() {
+
 }
 
 loadQuestion();
