@@ -1,5 +1,4 @@
 let currentQuestionsRight = 0;
-let currentQuestionsWrong = 0;
 
 const questions = [
     {
@@ -67,7 +66,25 @@ function loadQuestion() {
 };
 
 function checkAnswer() {
+    let selectedAns = document.querySelector('input[name="question"]:checked');
+    if (!selectedAns) {
+        alert("Please select an flag before submitting!");
+        return;
+    }
 
+    let userAns = selectedAns.value;
+    let correctAns = questions[currentQuestionsRight].answer;
+
+    if (userAns === correctAns) {
+        currentQuestionsRight++;
+        if (currentQuestionsRight < questions.length) {
+            loadQuestion();
+        } else {
+            document.getElementById('right').innerHTML = "Quiz completed";
+        }
+    } else {
+        document.getElementById('wrong').innerHTML = "Incorrect answer. Try again!";
+    }
 }
 
 loadQuestion();
