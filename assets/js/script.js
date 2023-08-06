@@ -58,7 +58,7 @@ function loadQuestion() {
     let flagQuestion = questions[currentQuestionsRight];
     let questionAns = `<p>${flagQuestion.question}</p>`;
 
-    flagQuestion.options.forEach((option, index) => {
+    flagQuestion.options.forEach((option) => {
         questionAns += `<label><input type="radio" name="question" value="${option.value}"><img class="flagImage" src="${option.src}" alt="${option.alt}"></label>`;
     });
 
