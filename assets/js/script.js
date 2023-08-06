@@ -14,7 +14,7 @@ const questions = [
     {
         question: "Which of the following is the Kuwait flag?",
         options: [
-            { src: 'assets/images/german_flag.png', alt: 'German Flag', value: 'Germany' },
+            { src: 'assets/images/flags/german_flag.png', alt: 'German Flag', value: 'Germany' },
             { src: 'assets/images/flags/kuwait_flag.png', alt: 'Kuwait Flag', value: 'Kuwait' },
             { src: 'assets/images/flags/belgium_flag.png', alt: 'Belgium Flag', value: 'Belgium' },
             { src: 'assets/images/flags/norway_flag.png', alt: 'Norwegian Flag', value: 'Norway' },
@@ -24,7 +24,7 @@ const questions = [
     {
         question: "Which of the following is the Icelandic flag?",
         options: [
-            { src: 'assets/images/icelandic_flag.png', alt: 'Icelandic Flag', value: 'Iceland' },
+            { src: 'assets/images/flags/icelandic_flag.png', alt: 'Icelandic Flag', value: 'Iceland' },
             { src: 'assets/images/flags/czech_flag.png', alt: 'Czech Flag', value: 'Czechia' },
             { src: 'assets/images/flags/french_flag.png', alt: 'French Flag', value: 'France' },
             { src: 'assets/images/flags/swedish_flag.png', alt: 'Swedish Flag', value: 'Sweden' },
@@ -34,7 +34,7 @@ const questions = [
     {
         question: "Which of the following is the Bolivian flag?",
         options: [
-            { src: 'assets/images/italian_flag.png', alt: 'Italian Flag', value: 'Italy' },
+            { src: 'assets/images/flags/italian_flag.png', alt: 'Italian Flag', value: 'Italy' },
             { src: 'assets/images/flags/bolivian_flag.png', alt: 'Bolivian Flag', value: 'Bolivia' },
             { src: 'assets/images/flags/scottish_flag.png', alt: 'Scottish Flag', value: 'Scotland' },
             { src: 'assets/images/flags/denmark_flag.png', alt: 'Danish Flag', value: 'Denmark' },
@@ -44,7 +44,7 @@ const questions = [
     {
         question: "Which of the following is the Irish flag?",
         options: [
-            { src: 'assets/images/burma_flag.png', alt: 'Burmese Flag', value: 'Burma' },
+            { src: 'assets/images/flags/burma_flag.png', alt: 'Burmese Flag', value: 'Burma' },
             { src: 'assets/images/flags/netherlands_flag.png', alt: 'Netherlands Flag', value: 'Netherlands' },
             { src: 'assets/images/flags/somalia_flag.png', alt: 'Somalian Flag', value: 'Somalia' },
             { src: 'assets/images/flags/irish_flag.png', alt: 'Irish Flag', value: 'Ireland' },
@@ -80,10 +80,10 @@ function checkAnswer() {
         if (currentQuestionsRight < questions.length) {
             loadQuestion();
         } else {
-            document.getElementById('right').innerHTML = "Quiz completed";
+            document.getElementById('right').innerHTML = "Quiz completed! Well Done!";
         }
     } else {
-        document.getElementById('wrong').innerHTML = "Incorrect answer. Try again!";
+        alert("Incorrect answer. Try again!");
     }
 }
 
