@@ -68,7 +68,7 @@ function loadQuestion() {
 function checkAnswer() {
     let selectedAns = document.querySelector('input[name="question"]:checked');
     if (!selectedAns) {
-        alert("Please select an flag before submitting!");
+        alert("Please select a flag before submitting!");
         return;
     }
 
