@@ -122,3 +122,24 @@ By forking the GitHub Repository, a copy can be created. This allows for viewing
     2. Locate the required GitHub Repository.
     3. Click the "<> Code" dropdown option.
     4. The link can be copied and cloned. 
+
+## Credits
+
+### Code
+
+- Code Institute: The JavaScript modules provided knowledge required to put together the code.
+- Stack Overflow: Helped with getting an understanding of how to get the functions to work during the set up stages, when I was making small errors and unsure where I was going wrong.
+
+### Content
+
+- All content was written by the developer.
+
+### Media
+
+- All images were created by the developer in paint, with reference to WikiMedia to make sure the flags were drawn correctly.
+
+### Acknowledgements
+
+- Kevin for keeping me motivated for the website.
+- Abi for their continued support, and allowing me to talk things through and get them straight.
+- Code Institute, as always, as their short and sweet lessons make this more manageable.
