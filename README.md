@@ -95,3 +95,30 @@ With more time, I would like to add more questions and a fully functioning score
   - As a regular user, I want to check for any new quizes.
 
         a. If new quizzes are added, the user will be able to see from any new options that may appear on the site.
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps:
+
+    1. Logged into GitHub and went to the specific GitHub Repository.
+    2. In the Repository page, clicked on the "Settings" cog at the top of the page.
+    3. In the "Code and automation" area, selected "Pages".
+    4. Under "Source" option, choose "Deploy from a branch", followed by "main" and "/(root)".
+    5. Refreshed the page, and at the top of the page is the published site link within "GitHub Pages" area.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository, a copy can be created. This allows for viewing and editing, without affecting the original. The following steps show how:
+
+    1. Log into GitHub, locate the GitHub Repository.
+    2. "Fork" is towards the top of the page, select it.
+    3. This provides a copy of the original repository.
+
+### Making a Local Clone
+
+    1. Start by logging into GitHub.
+    2. Locate the required GitHub Repository.
+    3. Click the "<> Code" dropdown option.
+    4. The link can be copied and cloned. 
