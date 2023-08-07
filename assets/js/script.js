@@ -66,7 +66,7 @@ function loadQuestion() {
     });
 
     document.getElementById('question').innerHTML = questionAns;
-};
+}
 
 /** This is the main "loop", called when the user clicks the submit button,
  * will either continue the game or end it depending on user score.
