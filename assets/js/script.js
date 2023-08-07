@@ -54,6 +54,9 @@ const questions = [
     // Add more questions if necessary.
 ];
 
+/** This is the question function, which is called once the script is loaded
+ * to allow the user to see the flag questions.
+*/
 function loadQuestion() {
     let flagQuestion = questions[currentQuestionsRight];
     let questionAns = `<p>${flagQuestion.question}</p>`;
@@ -65,6 +68,9 @@ function loadQuestion() {
     document.getElementById('question').innerHTML = questionAns;
 };
 
+/** This is the main "loop", called when the user clicks the submit button,
+ * will either continue the game or end it depending on user score.
+ */
 function checkAnswer() {
     let selectedAns = document.querySelector('input[name="question"]:checked');
     if (!selectedAns) {
