@@ -84,6 +84,7 @@ function checkAnswer() {
     if (userAns === correctAns) {
         currentQuestionsRight++;
         if (currentQuestionsRight < questions.length) {
+            alert("Fantastic! Correct answer!");
             loadQuestion();
         } else {
             document.getElementById('right').innerHTML = "Quiz completed! Well Done!";
