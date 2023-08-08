@@ -4,9 +4,29 @@
 
 A quick and fun little quiz to test the users knowledge of flags from around the world. It will be designed to allow for accessibility across a range of devices.
 
-![wireframe_screenshot](assets/images/project-2.png)    ![Homepage_screenshot](assets/images/index_screenshot.png)
-![Submit_button](assets/images/interactive_submit.png)    ![Alerts](assets/images/alerts.png)
-![Different_screensize](assets/images/different_screensize.png)    ![Quiz_complete](assets/images/quiz_complete.png)
+![wireframe_screenshot](assets/images/project-2.png)
+
+A screenshot of the initial wireframe to show the rough idea of where the main sections will be.
+
+![Homepage_screenshot](assets/images/index_screenshot.png)
+
+The first thing users see once the site has finished loading.
+
+![Submit_button](assets/images/interactive_submit.png)
+
+Color-changing submit button, for interactivity for the user.
+
+![Alerts](assets/images/alerts.png)
+
+Various alerts to ensure the user knows what to do and what is happening. One for if nothing is selected, one for if the wrong answer if chosen, and one for when the right answer is achieved.
+
+![Different_screensize](assets/images/different_screensize.png)
+
+Screenshot to show how the site responds to different screen sizes.
+
+![Quiz_complete](assets/images/quiz_complete.png)
+
+Text appears when the user has completed the quiz successfully.
 
 ## User Experience (UX)
 
