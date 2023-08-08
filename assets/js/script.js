@@ -1,5 +1,6 @@
 let currentQuestionsRight = 0;
 
+// Questions that will be in the quiz, with the correct answers.
 const questions = [
     {
         question: "Which of the following is the Japanese flag?",
